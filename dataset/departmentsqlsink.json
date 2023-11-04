@@ -1,0 +1,17 @@
+{
+	"name": "departmentsqlsink",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "sqldatbase",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "department_defineschemax"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

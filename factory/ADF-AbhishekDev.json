@@ -1,0 +1,9 @@
+{
+	"name": "ADF-AbhishekDev",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d74e8d13-8245-4e1f-80f7-cf689af0045f",
+		"tenantId": "3d59397a-77a3-49b4-ba3a-b165a22bc265"
+	}
+}
