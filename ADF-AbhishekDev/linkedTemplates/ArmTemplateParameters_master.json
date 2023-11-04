@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADF-AbhishekDev"
+		},
+		"BlobLS_connectionString": {
+			"value": ""
+		},
+		"Gen2IR_accountKey": {
+			"value": ""
+		},
+		"sqldatbase_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=sqlserver123abhi.database.windows.net;Initial Catalog=sqldatabase123;User ID=Cloud"
+		},
+		"Gen2IR_properties_typeProperties_url": {
+			"value": "https://storagegen2link.dfs.core.windows.net/"
+		},
+		"keyvaultxj_properties_typeProperties_baseUrl": {
+			"value": "https://keyvaultxj.vault.azure.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
